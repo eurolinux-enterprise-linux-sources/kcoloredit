@@ -1,0 +1,486 @@
+# translation of kcoloredit.po to Icelandic
+# Copyright (C) 2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2004.
+# Þröstur Svanbergsson <throstur@bylur.net>, 2004.
+# Sveinn í Felli <sveinki@nett.is>, 2006, 2007, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2009-08-25 14:45+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <kde-isl@molar.is>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr ""
+
+#: src/app/main.cpp:32
+#, fuzzy
+#| msgid ""
+#| "(C) 2008, Percy Camilo Triveño Aucahuasi\n"
+#| "(C) 2000, Artur Rataj"
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+"(C) 2008, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr "Percy Camilo Triveño Aucahuasi"
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr ""
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr "Artur Rataj"
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr ""
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "Án titils"
+
+#: src/app/kcoloredit.cpp:121
+#, fuzzy, kde-format
+#| msgid ""
+#| "The current file has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Núverandi skrá hefur verið breytt.\n"
+"Viltu vista hana ?"
+
+#: src/app/kcoloredit.cpp:123
+#, fuzzy
+msgid "Close Document"
+msgstr "Loka skjali"
+
+#: src/app/kcoloredit.cpp:159
+#, fuzzy, kde-format
+#| msgid ""
+#| "A Document with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"Skjal með þessu nafni er þegar til.\n"
+"Viltu yfirskrifa það?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "Yfirskrifa"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Clean Palette"
+msgstr "Sækja litatöflu"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate Color Names"
+msgstr "Fela &litanöfn"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+#, fuzzy
+#| msgid "Color selectors"
+msgid "Color builder"
+msgstr "Litaveljarar"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr "[breytt]"
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:295
+#, fuzzy
+#| msgid "Quick view"
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr "Flýtiskoðun"
+
+#: src/app/kcoloredit.cpp:342
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "Klára litanöfn"
+
+#: src/core/palettedocument.cpp:57
+msgid "File not found"
+msgstr "Skrá finnst ekki"
+
+#: src/core/palettedocument.cpp:64
+msgid "Could not open the file"
+msgstr "Gat ekki opnað skrá til skrifunar"
+
+#: src/core/palettedocument.cpp:78
+msgid "Is not a palette file"
+msgstr "Gat ekki litaspjaldsskrá"
+
+#: src/core/palettemodel.cpp:117
+#, fuzzy
+msgid "Items"
+msgstr "Hlutir"
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr "[Tómt]"
+
+#: src/dialog/palettedialog.cpp:144
+msgid "All Supported Files"
+msgstr "Allar studdar skrár"
+
+#: src/dialog/palettedialog.cpp:145
+msgid "KDE Palette"
+msgstr "KDE litaspjald"
+
+#: src/dialog/palettedialog.cpp:146
+msgid "GIMP Palette"
+msgstr "GIMP litaspjald"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "Hlaða inn litaspjaldi"
+
+#: src/dialog/palettedialog.cpp:183
+msgid "KDE Palettes"
+msgstr "KDE litaspjöld"
+
+#: src/dialog/palettedialog.cpp:184
+msgid "Search Palettes"
+msgstr "Leita í litaspjöldum"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr "Nota músina"
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:44
+#, fuzzy
+#| msgid "Show &Color Names"
+msgid "Show comments"
+msgstr "Sýna &litanöfn"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:54
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Insert Color"
+msgstr "Sérsniðnir litir"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr "Setja inn athugasemd"
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr "Fjarlægja hlut"
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:167
+msgid "Palette Name:"
+msgstr "Heiti litaspjalds:"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr "Breyta lýsingu"
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr "Áhald:"
+
+#: src/widgets/kcoloreditwidget.cpp:46
+msgid "KDE selector"
+msgstr "KDE veljari"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr "GTK veljari"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr "Litstigulsveljari (gradient)"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr "Auka"
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr "Skema:"
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr "Litamódel:"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+#, fuzzy
+#| msgid "Add Color"
+msgid "Current color"
+msgstr "Bæta við lit"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+#, fuzzy
+#| msgid "Add Color"
+msgid "Complement"
+msgstr "Bæta við lit"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr "RGB"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+msgid "Red"
+msgstr "Rauður"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr "Grænn"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr "Blár"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr "HSV"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr "Litblær"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr "Litmettun"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr "Litagildi"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr "CMY"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Cyan"
+msgstr "Cyan"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr "Magenta"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr "Gulur"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+#, fuzzy
+msgid "HTML"
+msgstr "HTML"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+#, fuzzy
+msgid "Hexadecimal"
+msgstr "Sextándakerfi"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr ""
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr ""
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate a random color"
+msgstr "Fela &litanöfn"
+
+#: src/widgets/colorwidget.cpp:48
+#, fuzzy
+#| msgid "Add Color"
+msgid "Append color"
+msgstr "Bæta við lit"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr "Afrita lit á klippispjaldið"
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Vista"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr "Birtustig"
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:123
+msgid "Color selectors"
+msgstr "Litaveljarar"
+
+#: src/widgets/colortoolwidget.cpp:125
+#, fuzzy
+msgid "Pick a color"
+msgstr "Veldu lit"
+
+#: src/widgets/colortoolwidget.cpp:134
+msgid "Hide window"
+msgstr "Fela glugga"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr "Birtustig %1 %"
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr "Litmettun %1 %"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Pjetur G. Hjaltason, Richard Allen, Sveinn í Felli"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "pjetur@pjetur.net, ra@ra.is, sveinki@nett.is"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+msgid "Palette"
+msgstr "Litaspjald"
+
+#~ msgid "Detail view"
+#~ msgstr "Ýtarleg sýn"
+
+#~ msgid "Selected"
+#~ msgstr "Valið"

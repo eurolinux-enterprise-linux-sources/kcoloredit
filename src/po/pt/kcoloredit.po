@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2009-11-03 15:07+0000\n"
+"Last-Translator: José Carlos Monteiro <jcm@netcabo.pt>\n"
+"Language-Team: pt <kde-i18n-pt@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-IgnoreConsistency: Open File\n"
+"X-POFile-SpellExtra: KColorEdit hex Hasan Rataj Nadeem Percy Aucahuasi\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Triveño Triádico Quádrico RRGGBB CMYK\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr "KColorEdit, uma ferramenta para editar paletas de cores."
+
+#: src/app/main.cpp:32
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr "Percy Camilo Triveño Aucahuasi"
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr "Manutenção actual - Actualização e desenvolvimento da nova versão."
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr "Artur Rataj"
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr "Manutenção anterior - Criação do KColorEdit"
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr ""
+"O ficheiro a abrir (Ficheiro de texto com os itens de cores e comentários)"
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "Sem Título"
+
+#: src/app/kcoloredit.cpp:121
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"O documento \"%1\" foi modificado.\n"
+"Deseja gravar as suas alterações ou ignorá-las?"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr "Fechar o Documento"
+
+#: src/app/kcoloredit.cpp:159
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"Já existe um ficheiro com o nome \"%1\". Tem a certeza que o deseja "
+"substituir?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "Sobrepor"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+"Esta acção irá remover todos os itens (cores e comentários) da paleta actual."
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+msgid "Clean Palette"
+msgstr "Limpar a Paleta"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+"Esta acção irá substituir o nome de todos os itens de cores com os nomes "
+"neste formato #RRGGBB."
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+msgid "Generate Color Names"
+msgstr "Gerar os Nomes das Cores"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+msgid "Color builder"
+msgstr "Construtor de cores"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr "[modificado]"
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr "Antevisão"
+
+#: src/app/kcoloredit.cpp:295
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr "Área de edição"
+
+#: src/app/kcoloredit.cpp:342
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "Nomes Completos das Cores"
+
+#: src/core/palettedocument.cpp:57
+msgid "File not found"
+msgstr "O ficheiro não foi encontrado"
+
+#: src/core/palettedocument.cpp:64
+msgid "Could not open the file"
+msgstr "Não foi possível aceder ao ficheiro"
+
+#: src/core/palettedocument.cpp:78
+msgid "Is not a palette file"
+msgstr "Não é um ficheiro de paleta"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr "Itens"
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr "[Vazio]"
+
+#: src/dialog/palettedialog.cpp:144
+msgid "All Supported Files"
+msgstr "Todos os Ficheiros Suportados"
+
+#: src/dialog/palettedialog.cpp:145
+msgid "KDE Palette"
+msgstr "Paleta do KDE"
+
+#: src/dialog/palettedialog.cpp:146
+msgid "GIMP Palette"
+msgstr "Paleta do GIMP"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "Ler a Paleta"
+
+#: src/dialog/palettedialog.cpp:183
+msgid "KDE Palettes"
+msgstr "Paletas do KDE"
+
+#: src/dialog/palettedialog.cpp:184
+msgid "Search Palettes"
+msgstr "Procurar Paletas"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr "Usar o rato"
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr "Irá desactivar automaticamente ao carregar num item"
+
+#: src/itemviews/palettebriefview.cpp:44
+msgid "Show comments"
+msgstr "Mostrar os comentários"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr "Se estiver assinalada, as vistas serão sincronizadas"
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr "Primeira posição"
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr "Posição anterior"
+
+#: src/itemviews/palettedetailview.cpp:54
+msgid "Insert Color"
+msgstr "Inserir uma Cor"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr "Inserir um Comentário"
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr "Remover o Item"
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr "Posição seguinte"
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr "Última posição"
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr "Adicionar uma descrição"
+
+#: src/itemviews/palettedetailview.cpp:167
+msgid "Palette Name:"
+msgstr "Nome da Paleta:"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr " para esta paleta"
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr "Editar a descrição"
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr "Ferramenta:"
+
+#: src/widgets/kcoloreditwidget.cpp:46
+msgid "KDE selector"
+msgstr "Selector do KDE"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr "Selector do GTK"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr "Selector de gradientes"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr "Extras"
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr "Esquema:"
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr "Modelo:"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+msgid "Current color"
+msgstr "Cor actual"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+msgid "Complement"
+msgstr "Complemento"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr "Triádico"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr "Quádrico"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr "Análogo"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr "Copiar os valores da cor para a área de transferência"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr "RGB"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+msgid "Red"
+msgstr "Vermelho"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr "Verde"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr "Azul"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr "HSV"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr "Tom"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr "Saturação"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr "Valor"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr "CMY"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Cyan"
+msgstr "Cíano"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr "Magenta"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr "Amarelo"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr "Textual"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr "HTML"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr "Hexadecimal"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr "Copiar o valor em HTML para a área de transferência"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr "Copiar o valor da cor em hexadecimal para a área de transferência"
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr "Modo do selector:"
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+msgid "Generate a random color"
+msgstr "Gerar uma cor aleatória"
+
+#: src/widgets/colorwidget.cpp:48
+msgid "Append color"
+msgstr "Adicionar uma cor"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr "Copiar a cor para a área de transferência"
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Gravar"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr "Brilho"
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr "Repor o brilho original"
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr "Repor a saturação original"
+
+#: src/widgets/colortoolwidget.cpp:123
+msgid "Color selectors"
+msgstr "Selectores de cores"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr "Extrair uma cor"
+
+#: src/widgets/colortoolwidget.cpp:134
+msgid "Hide window"
+msgstr "Esconder a janela"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr "Brilho %1 %"
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr "Saturação %1 %"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "José Nuno Pires,Pedro Morais"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jncp@netcabo.pt,morais@kde.org"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+msgid "Palette"
+msgstr "Paleta"

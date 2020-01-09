@@ -1,0 +1,621 @@
+# translation of kcoloredit.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2008-03-28 08:08+0530\n"
+"Last-Translator: Ravishankar Shrivastava <raviratlami@yahoo.com>\n"
+"Language-Team: Hindi <indlinux-hindi@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "के-कलर-एडिट"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr ""
+
+#: src/app/main.cpp:32
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr ""
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr ""
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr ""
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr ""
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "बिना शीर्षक"
+
+#: src/app/kcoloredit.cpp:121
+#, fuzzy, kde-format
+#| msgid ""
+#| "The current file has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"मौज़ूदा फ़ाइल परिवर्धित किया गया है.\n"
+" क्या आप इसे सहेजना चाहते हैं?"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:159
+#, fuzzy, kde-format
+#| msgid ""
+#| "A Document with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"इस नाम की फ़ाइल पहले से ही मौजूद है. \n"
+"क्या आप इसके ऊपर लिखना चाहते हैं?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "मिटाकर लिखें"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Clean Palette"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate Color Names"
+msgstr "रंग नाम छुपाएँ (&C)"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+#, fuzzy
+#| msgid "Color at Cursor"
+msgid "Color builder"
+msgstr "संकेतक पर रंग"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:295
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:342
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "रंग नाम छुपाएँ (&C)"
+
+#: src/core/palettedocument.cpp:57
+#, fuzzy
+#| msgid "File to open"
+msgid "File not found"
+msgstr "फ़ाइल जिसे खोलना है"
+
+#: src/core/palettedocument.cpp:64
+#, fuzzy
+#| msgid "Could not open file for writing"
+msgid "Could not open the file"
+msgstr "लिखने के लिए फ़ाइल खोला नहीं जा सका "
+
+#: src/core/palettedocument.cpp:78
+#, fuzzy
+#| msgid "Could not open file"
+msgid "Is not a palette file"
+msgstr "फ़ाइल खोल नहीं सकते"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr ""
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr ""
+
+#: src/dialog/palettedialog.cpp:144
+#, fuzzy
+#| msgid "All Files"
+msgid "All Supported Files"
+msgstr "सभी फ़ाइलें"
+
+#: src/dialog/palettedialog.cpp:145
+#, fuzzy
+#| msgid "Load Palette"
+msgid "KDE Palette"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/dialog/palettedialog.cpp:146
+#, fuzzy
+#| msgid "Load Palette"
+msgid "GIMP Palette"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/dialog/palettedialog.cpp:183
+#, fuzzy
+#| msgid "Load Palette"
+msgid "KDE Palettes"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/dialog/palettedialog.cpp:184
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Search Palettes"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:44
+#, fuzzy
+#| msgid "Show &Color Names"
+msgid "Show comments"
+msgstr "रंग नाम दिखाएँ (&C)"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:54
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Insert Color"
+msgstr "मनपसंद रंग"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:167
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Palette Name:"
+msgstr "रंगपट्टिका लोड करें"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:46
+#, fuzzy
+#| msgid "Color at Cursor"
+msgid "KDE selector"
+msgstr "संकेतक पर रंग"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+#, fuzzy
+#| msgid "Color at Cursor"
+msgid "GTK selector"
+msgstr "संकेतक पर रंग"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+#, fuzzy
+#| msgid "Color at Cursor"
+msgid "Gradient selector"
+msgstr "संकेतक पर रंग"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+#, fuzzy
+#| msgid "Add Color"
+msgid "Current color"
+msgstr "रंग जोड़ें"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+#, fuzzy
+#| msgid "Add Color"
+msgid "Complement"
+msgstr "रंग जोड़ें"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+#, fuzzy
+#| msgid "Ready."
+msgid "Red"
+msgstr "तैयार."
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+#, fuzzy
+#| msgid "Variable"
+msgid "Value"
+msgstr "परिवर्तनीय"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+#, fuzzy
+#| msgid "Change"
+msgid "Cyan"
+msgstr "बदलें"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr ""
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr ""
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate a random color"
+msgstr "रंग नाम छुपाएँ (&C)"
+
+#: src/widgets/colorwidget.cpp:48
+#, fuzzy
+#| msgid "Add Color"
+msgid "Append color"
+msgstr "रंग जोड़ें"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr ""
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+#, fuzzy
+#| msgid "Save As"
+msgctxt "@action:button"
+msgid "Save"
+msgstr "ऐसे सहेजें"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+#, fuzzy
+#| msgid "Change"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "बदलें"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:123
+#, fuzzy
+#| msgid "Color at Cursor"
+msgid "Color selectors"
+msgstr "संकेतक पर रंग"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:134
+#, fuzzy
+#| msgid "New &Window"
+msgid "Hide window"
+msgstr "नया विंडो (&W)"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "रविशंकर श्रीवास्तव, जी. करूणाकर"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "raviratlami@aol.in"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Palette"
+msgstr "रंगपट्टिका लोड करें"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Color"
+#~ msgstr "रंग जोड़ें"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Comment"
+#~ msgstr "रंग जोड़ें"
+
+#, fuzzy
+#~| msgid "Color at Cursor"
+#~ msgid "Color tool:"
+#~ msgstr "संकेतक पर रंग"
+
+#, fuzzy
+#~| msgid "Main Toolbar"
+#~ msgid "Palette Toolbar"
+#~ msgstr "मुख्य औज़ार पट्टी"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name: "
+#~ msgstr "नाम"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Comment: "
+#~ msgstr "रंग जोड़ें"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Mix Colors"
+#~ msgstr "रंग जोड़ें"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Add Colors"
+#~ msgstr "रंग जोड़ें"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Add All Color Range"
+#~ msgstr "रंग जोड़ें"
+
+#~ msgid "File to open"
+#~ msgstr "फ़ाइल जिसे खोलना है"
+
+#~ msgid "Replace"
+#~ msgstr "बदलें"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Synchronize"
+#~ msgstr "सिंक्रोनाइज़"
+
+#~ msgid "From &Palette"
+#~ msgstr "रंगपट्टिका से (&P)"
+
+#~ msgid "From &Screen"
+#~ msgstr "स्क्रीन से (&S)"
+
+#~ msgid "Warning"
+#~ msgstr "चेतावनी"
+
+#~ msgid "Do Not Save"
+#~ msgstr "सहेजें नहीं"
+
+#~ msgid "At cursor"
+#~ msgstr "संकेतक पर"
+
+#~ msgid "hex."
+#~ msgstr "हेक्स."
+
+#~ msgid "Select a palette:"
+#~ msgstr "एक रंगपट्टिका चुनें:"
+
+#~ msgid "Recent Colors"
+#~ msgstr "हालिया रंग"
+
+#~ msgid "Browse..."
+#~ msgstr "ब्राउज़..."
+
+#~ msgid "*|All Files"
+#~ msgstr "*|सभी फ़ाइलें"
+
+#~ msgid "Open File"
+#~ msgstr "फ़ाइल खोलें"
+
+#~ msgid "Nadeem Hasan"
+#~ msgstr "नदीम हसन"
+
+#~ msgid "Rewrote UI code to be KDE standards compliant"
+#~ msgstr "केडीई मानक कम्प्लाएंट के लायक यूआई कोड फिर से लिखा"
+
+#~ msgid "Invalid format"
+#~ msgstr "अवैध फॉर्मेट"
+
+#~ msgid "Write error"
+#~ msgstr "लिखने में त्रुटि"
+
+#~ msgid "&File"
+#~ msgstr "फ़ाइल (&F)"
+
+#~ msgid "&Color"
+#~ msgstr "रंग (&C)"

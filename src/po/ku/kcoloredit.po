@@ -1,0 +1,502 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2009-01-20 00:50+0200\n"
+"Last-Translator: Omer Ensari <oensari@gmail.com>\n"
+"Language-Team: Kurdish <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n != 1;\n"
+"X-Poedit-Language: Kurdish\n"
+"X-Poedit-SourceCharset: utf8\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+#, fuzzy
+#| msgid "KColorEdit, great tool for editing color palettes."
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr "KColorEdit, amûrekê pir baş ji bo serastkirina paletên rengan. "
+
+#: src/app/main.cpp:32
+#, fuzzy
+#| msgid ""
+#| "(C) 2008, Percy Camilo Triveño Aucahuasi\n"
+#| "(C) 2000, Artur Rataj"
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+"(C) 2008, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr "Percy Camilo Triveño Aucahuasi"
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr "Kesê miqat yê niha - Guhertoya nû bilind kirin û pêşvebir."
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr "Artur Rataj"
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr "Kesê miqat yê berê - KColorEdit Afirand"
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr "Pela tê vebe (Pela nivîsar bi rengan û hêmanên şîrove yan re)"
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "Bênav"
+
+#: src/app/kcoloredit.cpp:121
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Belgeya \"%1\" hatiye guhertin.\n"
+"Tu dixwazî tomar bikî an guhertinan jê bibî?"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr "Belgeyê Bigire"
+
+#: src/app/kcoloredit.cpp:159
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Pelê bi navê \"%1\" jixwe heye. Tu dixwazî li ser wê binivîsî?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "Binivîse ser"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+"Ev çalakî dê hemû hêmanan jê bibe (rengan û şîroveyan) yên paleta heyî."
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+msgid "Clean Palette"
+msgstr "Paletê Paqij Bike"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+"Ev çalakî dê navên hêmanên rengan bi navên yên di vê teşeya #RRGGBB de re "
+"biguherîne."
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+msgid "Generate Color Names"
+msgstr "Navên Rengan Biafirîne"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+#, fuzzy
+#| msgid "Color selectors"
+msgid "Color builder"
+msgstr "Hilbijêrên rengê"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr "[hat guherandin]"
+
+#: src/app/kcoloredit.cpp:289
+#, fuzzy
+#| msgid "Brief view"
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr "Kurte dîtin"
+
+#: src/app/kcoloredit.cpp:295
+#, fuzzy
+#| msgid "Quick navigation"
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr "Gerana bilez"
+
+#: src/app/kcoloredit.cpp:342
+#, fuzzy
+#| msgid "Complete Color Names"
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "Bi Tevahî Navên Rengan"
+
+#: src/core/palettedocument.cpp:57
+msgid "File not found"
+msgstr "Pel nehat dîtin"
+
+#: src/core/palettedocument.cpp:64
+msgid "Could not open the file"
+msgstr "Nekarî pelê veke"
+
+#: src/core/palettedocument.cpp:78
+msgid "Is not a palette file"
+msgstr "Pela paletê nîn e"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr "Hêman"
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr "[Vala]"
+
+#: src/dialog/palettedialog.cpp:144
+msgid "All Supported Files"
+msgstr "Hemû Pelên Tên Piştgirî Dan"
+
+#: src/dialog/palettedialog.cpp:145
+msgid "KDE Palette"
+msgstr "Paleta KDE"
+
+#: src/dialog/palettedialog.cpp:146
+msgid "GIMP Palette"
+msgstr "Paleta GIMP"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "Palet Bar Bike"
+
+#: src/dialog/palettedialog.cpp:183
+msgid "KDE Palettes"
+msgstr "Paletên KDE"
+
+#: src/dialog/palettedialog.cpp:184
+msgid "Search Palettes"
+msgstr "Lê Paletan Bigere"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:41
+#, fuzzy
+#| msgid "It will disable automatically if you clicked over a item"
+msgid "It will be disabled automatically when clicking over a item"
+msgstr "Ev dê bixweber neçalak be heke tu ser hêmanekî bitikînî"
+
+#: src/itemviews/palettebriefview.cpp:44
+msgid "Show comments"
+msgstr "Şîroveyan nîşan bide"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr "Heke nîşan kirî be, dîtin dê hemdemî bin"
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr "Bicihbûna pêşîn"
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr "Bicihbûna berê"
+
+#: src/itemviews/palettedetailview.cpp:54
+msgid "Insert Color"
+msgstr "Reng Têxê"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr "Şîrove Têxê"
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr "Hêman Rake"
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr "Bicihbûna pêş"
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr "Bicihbûna dawiyê"
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr "Rave Lê Zêde Bike"
+
+#: src/itemviews/palettedetailview.cpp:167
+msgid "Palette Name:"
+msgstr "Navê Paletê:"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr " ji bo vê paletê"
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr "Raveyê Biguherîne"
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:46
+msgid "KDE selector"
+msgstr "Hilbijêra KDE"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr "Hilbijêra GTK"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr "Hilbijêra Gradient"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr "Zêdetir"
+
+#: src/widgets/kcoloreditwidget.cpp:71
+#, fuzzy
+#| msgid "Color scheme:"
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr "Şemaya rengan:"
+
+#: src/widgets/kcoloreditwidget.cpp:88
+#, fuzzy
+#| msgid "RGB Model"
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr "Nimûneka RGB"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+#, fuzzy
+#| msgid "Append color"
+msgid "Current color"
+msgstr "Reng lê zêde bike"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+msgid "Complement"
+msgstr "Temamker"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr "Sêlibî"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr "Çarlibî"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr "Wekhevî"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr "Nirxên rengê ji ber bigire di bîra mişkê de"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+msgid "Red"
+msgstr "Sor"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr "Kesk"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr "Şîn"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr "Kirpandina rengan"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr "Têrbûn"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr "Nirx"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Cyan"
+msgstr "Hêşîn (Cyan)"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr "Sor bi mor ve"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr "Zer"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr "Nivîsarî"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr "HTML"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr "Şazdehêk"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr "Nirxa HTML ji ber bigire di bîra mişkê de"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr "Nirxa rengê şazdehêk ji ber bigire di bîra mişkê de"
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr "Moda hilbijêr:"
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+msgid "Generate a random color"
+msgstr "Rengekî lêrasthatî biafirîne"
+
+#: src/widgets/colorwidget.cpp:48
+msgid "Append color"
+msgstr "Reng lê zêde bike"
+
+#: src/widgets/colorwidget.cpp:53
+#, fuzzy
+#| msgid "Copy color name to clipboard"
+msgid "Copy color to clipboard"
+msgstr "Navê rengê ji ber bigire di bîra mişkê de"
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Tomar bike"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Betal"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr "Biriqandin"
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:123
+msgid "Color selectors"
+msgstr "Hilbijêrên rengê"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr "Rengekî hilbijêre"
+
+#: src/widgets/colortoolwidget.cpp:134
+msgid "Hide window"
+msgstr "Paceyê veşêre"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, fuzzy, kde-format
+#| msgid "Brightness"
+msgid "Brightness %1 %"
+msgstr "Biriqandin"
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, fuzzy, kde-format
+#| msgid "Saturation"
+msgid "Saturation %1 %"
+msgstr "Têrbûn"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Omer Ensari"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "oensari@gmail.com"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+msgid "Palette"
+msgstr "Palet"
+
+#~ msgid "Detail view"
+#~ msgstr "Hûragahî dîtin"
+
+#~ msgid "Append Color"
+#~ msgstr "Reng Lê Zêde Bike"
+
+#~ msgid "Append Comment"
+#~ msgstr "Şîrove Lê Zêde Bike"
+
+#~ msgid "Color tool:"
+#~ msgstr "Amûra rengê:"
+
+#~ msgid "Color information:"
+#~ msgstr "Agahiya rengê:"
+
+#~ msgid "HSV Model"
+#~ msgstr "Nimûneka HSV"
+
+#~ msgid "CMYK Model"
+#~ msgstr "Nimûneka CMYK"
+
+#~ msgid "Decrease"
+#~ msgstr "Kêmtir Bike"
+
+#~ msgid "Increase"
+#~ msgstr "Zêdetir Bike"
+
+#~ msgid "Palette Toolbar"
+#~ msgstr "Darika Amûrên Paletê"
