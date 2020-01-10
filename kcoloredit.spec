@@ -3,7 +3,7 @@
 
 Name:    kcoloredit
 Version: 4.4.0
-Release: 7%{?dist}
+Release: 9%{?dist}
 Summary: A color palette Editor
 
 License: GPLv2+
@@ -73,6 +73,12 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &> /dev/null || :
 
 
 %changelog
+* Tue Jan 28 2014 Daniel Mach <dmach@redhat.com> - 4.4.0-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.4.0-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.4.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
