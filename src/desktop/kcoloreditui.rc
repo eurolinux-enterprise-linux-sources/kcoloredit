@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<gui name="KColorEdit" version="1">
+    <MenuBar>
+        <Menu name="view">
+            <Action name="show-detail-view"/>
+            <Action name="show-brief-view"/>
+        </Menu>
+        <Menu name="palette">
+            <text>Palette</text>
+            <Action name="clean-palette"/>
+            <Action name="generate-color-names"/>
+            <Action name="complete-color-names"/>
+        </Menu>
+    </MenuBar>
+</gui>

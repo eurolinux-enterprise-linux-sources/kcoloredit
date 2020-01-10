@@ -1,0 +1,597 @@
+# KDE breton translation
+# Thierry Vignaud <tvignaud@mandriva.com>, 2004-2005
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics/kcoloredit.pot\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2004-09-20 15:44+0200\n"
+"Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
+"Language-Team: br <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr ""
+
+#: src/app/main.cpp:32
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr ""
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr ""
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr ""
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr ""
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "Diditl"
+
+#: src/app/kcoloredit.cpp:121
+#, fuzzy, kde-format
+#| msgid ""
+#| "The current file has been modified.\n"
+#| "Do you want to save it?"
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Kemmet eo bet restr-mañ.\n"
+"Hag e fell deoc'h e enrollañ ?"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:159
+#, fuzzy, kde-format
+#| msgid ""
+#| "A Document with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"Un teul gant an anv-se a zo c'hoazh.\n"
+"C'hoant ho peus e rasklañ ?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "Rasklañ"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Clean Palette"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate Color Names"
+msgstr "Kuzhat anvioù al &livioù"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Color builder"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:295
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr ""
+
+#: src/app/kcoloredit.cpp:342
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "Kuzhat anvioù al &livioù"
+
+#: src/core/palettedocument.cpp:57
+#, fuzzy
+#| msgid "File to open"
+msgid "File not found"
+msgstr "Restr da zigeriñ"
+
+#: src/core/palettedocument.cpp:64
+#, fuzzy
+#| msgid "Could not open file for writing"
+msgid "Could not open the file"
+msgstr "N'hellan ket digeriñ ar restr evit skrivañ"
+
+#: src/core/palettedocument.cpp:78
+#, fuzzy
+#| msgid "Could not open file"
+msgid "Is not a palette file"
+msgstr "N'hellan ket digeriñ ar restr"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr ""
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr ""
+
+#: src/dialog/palettedialog.cpp:144
+#, fuzzy
+#| msgid "All Files"
+msgid "All Supported Files"
+msgstr "Pep restr"
+
+#: src/dialog/palettedialog.cpp:145
+#, fuzzy
+#| msgid "Load Palette"
+msgid "KDE Palette"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/dialog/palettedialog.cpp:146
+#, fuzzy
+#| msgid "Load Palette"
+msgid "GIMP Palette"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/dialog/palettedialog.cpp:183
+#, fuzzy
+#| msgid "Load Palette"
+msgid "KDE Palettes"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/dialog/palettedialog.cpp:184
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Search Palettes"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr ""
+
+#: src/itemviews/palettebriefview.cpp:44
+#, fuzzy
+#| msgid "Show &Color Names"
+msgid "Show comments"
+msgstr "Diskouez anvioù al &livioù"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:54
+#, fuzzy
+#| msgid "Custom Colors"
+msgid "Insert Color"
+msgstr "Livioù diouzhoc'h"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:167
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Palette Name:"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr ""
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:46
+#, fuzzy
+#| msgid "Load Palette"
+msgid "KDE selector"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr ""
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+#, fuzzy
+#| msgid "Add Color"
+msgid "Current color"
+msgstr "Ouzhpennañ ul liv"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+#, fuzzy
+#| msgid "Add Color"
+msgid "Complement"
+msgstr "Ouzhpennañ ul liv"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+#, fuzzy
+#| msgid "Ready."
+msgid "Red"
+msgstr "Prest."
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+#, fuzzy
+#| msgid "Change"
+msgid "Cyan"
+msgstr "Kemmañ"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr ""
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr ""
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr ""
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+#, fuzzy
+#| msgid "Hide &Color Names"
+msgid "Generate a random color"
+msgstr "Kuzhat anvioù al &livioù"
+
+#: src/widgets/colorwidget.cpp:48
+#, fuzzy
+#| msgid "Add Color"
+msgid "Append color"
+msgstr "Ouzhpennañ ul liv"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr ""
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+#, fuzzy
+#| msgid "Save As"
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Enrollañ e"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+#, fuzzy
+#| msgid "Change"
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Kemmañ"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:123
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Color selectors"
+msgstr "Kargañ an daolenn-livioù"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:134
+#, fuzzy
+#| msgid "New &Window"
+msgid "Hide window"
+msgstr "Prenestr &Nevez"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr ""
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Thierry Vignaud, Jañ-Mai Drapier"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tvignaud@mandriva.com, jdrapier@club-internet.fr"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+#, fuzzy
+#| msgid "Load Palette"
+msgid "Palette"
+msgstr "Kargañ an daolenn-livioù"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Color"
+#~ msgstr "Ouzhpennañ ul liv"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Append Comment"
+#~ msgstr "Ouzhpennañ ul liv"
+
+#, fuzzy
+#~| msgid "Main Toolbar"
+#~ msgid "Palette Toolbar"
+#~ msgstr "Barrenn kentañ an ostilhoù"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name: "
+#~ msgstr "Anv"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Comment: "
+#~ msgstr "Ouzhpennañ ul liv"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name"
+#~ msgstr "Anv"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Mix Colors"
+#~ msgstr "Ouzhpennañ ul liv"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Add Colors"
+#~ msgstr "Ouzhpennañ ul liv"
+
+#, fuzzy
+#~| msgid "Add Color"
+#~ msgid "Add All Color Range"
+#~ msgstr "Ouzhpennañ ul liv"
+
+#~ msgid "File to open"
+#~ msgstr "Restr da zigeriñ"
+
+#~ msgid "Replace"
+#~ msgstr "Erlec'hiañ"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "From &Palette"
+#~ msgstr "Eus an &daolenn-livioù"
+
+#~ msgid "From &Screen"
+#~ msgstr "Eus ar &skramm"
+
+#~ msgid "Warning"
+#~ msgstr "Diwallit"
+
+#~ msgid "Do Not Save"
+#~ msgstr "Ne enrollit ket"
+
+#~ msgid "At cursor"
+#~ msgstr "Ouzh ar reti"
+
+#~ msgid "Select a palette:"
+#~ msgstr "Dibabit un daolenn-livioù :"
+
+#~ msgid "Recent Colors"
+#~ msgstr "Livioù nevezig"
+
+#~ msgid "Browse..."
+#~ msgstr "Furchal ..."
+
+#~ msgid "*|All Files"
+#~ msgstr "*|Pep restr"
+
+#~ msgid "Open File"
+#~ msgstr "Digeriñ ur Restr"
+
+#~ msgid "Invalid format"
+#~ msgstr "Siek eo ar furmad"
+
+#~ msgid "Write error"
+#~ msgstr "Fazi en ur skrivañ"
+
+#~ msgid "&File"
+#~ msgstr "&Restr"
+
+#~ msgid "&Color"
+#~ msgstr "&Liv"
+
+#~ msgid "KColorChooser"
+#~ msgstr "KColorChooser"

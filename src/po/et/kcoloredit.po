@@ -1,0 +1,570 @@
+# translation of kcoloredit.po to Estonian
+# Copyright (C) 2003, 2008 Free Software Foundation, Inc.
+#
+# Marek Laane <bald@starman.ee>, 2003-2007.
+# Marek Laane <bald@smail.ee>, 2008-2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
+"PO-Revision-Date: 2009-11-11 05:28+0200\n"
+"Last-Translator: Marek Laane <bald@smail.ee>\n"
+"Language-Team: Estonian <kde-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr "KColorEdit on värvipalettide redigeerimise tööriist."
+
+#: src/app/main.cpp:32
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+"(C) 2009: Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000: Artur Rataj"
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr "Percy Camilo Triveño Aucahuasi"
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr "Praegune hooldaja - uuendas ja arendas uue versiooni"
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr "Artur Rataj"
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr "Endine hooldaja - KColorEditi looja"
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr "Avatav fail (tekstifail värvide ja kommentaaridega)"
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "Nimetu"
+
+#: src/app/kcoloredit.cpp:121
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Dokumenti \"%1\" on muudetud.\n"
+"Kas soovid muudatused salvestada või unustada?"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr "Dokumendi sulgemine"
+
+#: src/app/kcoloredit.cpp:159
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "Fail nimega \"%1\" on juba olemas. Kas tõesti see üle kirjutada?"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "Kirjuta üle"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr ""
+"See toiming kustutab kõik aktiivse paleti elemendid (värvid ja kommentaarid)."
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+msgid "Clean Palette"
+msgstr "Puhasta palett"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr ""
+"See toiming asendab kõigi värvielementide nimed nimedega #RRGGBB vormingus."
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+msgid "Generate Color Names"
+msgstr "Genereeri värvinimed"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+msgid "Color builder"
+msgstr "Värvilooja"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr "[muudetud]"
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr "Eelvaatlus"
+
+#: src/app/kcoloredit.cpp:295
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr "Redigeerimisvaade"
+
+#: src/app/kcoloredit.cpp:342
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "Täielikud värvinimed"
+
+#: src/core/palettedocument.cpp:57
+msgid "File not found"
+msgstr "Faili ei leitud"
+
+#: src/core/palettedocument.cpp:64
+msgid "Could not open the file"
+msgstr "Faili avamine nurjus"
+
+#: src/core/palettedocument.cpp:78
+msgid "Is not a palette file"
+msgstr "See ei ole paletifail"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr "Elemendid"
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr "[Tühi]"
+
+#: src/dialog/palettedialog.cpp:144
+msgid "All Supported Files"
+msgstr "Kõik toetatud failid"
+
+#: src/dialog/palettedialog.cpp:145
+msgid "KDE Palette"
+msgstr "KDE palett"
+
+#: src/dialog/palettedialog.cpp:146
+msgid "GIMP Palette"
+msgstr "GIMP-i palett"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "Paleti laadimine"
+
+#: src/dialog/palettedialog.cpp:183
+msgid "KDE Palettes"
+msgstr "KDE paletid"
+
+#: src/dialog/palettedialog.cpp:184
+msgid "Search Palettes"
+msgstr "Otsi palette"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr "Hiire kasutamine"
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr "See lülitatakse elemendile klõpsates automaatselt välja"
+
+#: src/itemviews/palettebriefview.cpp:44
+msgid "Show comments"
+msgstr "Kommentaaride näitamine"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr "Märkimise korral vaated sünkroniseeritakse"
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr "Esimene asukoht"
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr "Eelmine asukoht"
+
+#: src/itemviews/palettedetailview.cpp:54
+msgid "Insert Color"
+msgstr "Lisa värv"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr "Lisa kommentaar"
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr "Eemalda element"
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr "Järgmine asukoht"
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr "Viimane asukoht"
+
+#: src/itemviews/palettedetailview.cpp:162
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Add description"
+msgstr "Lisa kirjeldus"
+
+#: src/itemviews/palettedetailview.cpp:167
+msgid "Palette Name:"
+msgstr "Paleti nimi:"
+
+#: src/itemviews/palettedetailview.cpp:172
+msgid " for this palette"
+msgstr " sellele paletile"
+
+#: src/itemviews/palettedetailview.cpp:312
+msgid "Edit description"
+msgstr "Muuda kirjeldust"
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr "Tööriist:"
+
+#: src/widgets/kcoloreditwidget.cpp:46
+msgid "KDE selector"
+msgstr "KDE valija"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr "GTK valija"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr "Ülemineku valija"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr "Täiendavad"
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr "Skeem:"
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr "Mudel:"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+msgid "Current color"
+msgstr "Aktiivne värv"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+msgid "Complement"
+msgstr "Täiend"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr "Triaad"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr "Tetraad"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr "Analoog"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr "Kopeeri värviväärtused lõikepuhvrisse"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr "RGB"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+msgid "Red"
+msgstr "Punane"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr "Roheline"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr "Sinine"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr "HSV"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr "Toon"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr "Värviküllastus"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr "Väärtus"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr "CMY"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Cyan"
+msgstr "Tsüaan"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr "Magenta"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr "Kollane"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr "Tekstiline"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr "HTML"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr "16-süsteemis"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr "Kopeeri HTML-väärtus lõikepuhvrisse"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr "Kopeeri värvi kuueteistkümnendväärtus lõikepuhvrisse"
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr "Valija režiim:"
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+msgid "Generate a random color"
+msgstr "Juhusliku värvi genereerimine"
+
+#: src/widgets/colorwidget.cpp:48
+msgid "Append color"
+msgstr "Lisa värv"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr "Kopeeri värv lõikepuhvrisse"
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Salvesta"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Loobu"
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr "Heledus"
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr "Taasta algne heledus"
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr "Taasta algne värviküllastus"
+
+#: src/widgets/colortoolwidget.cpp:123
+msgid "Color selectors"
+msgstr "Värvivalijad"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr "Vali värv"
+
+#: src/widgets/colortoolwidget.cpp:134
+msgid "Hide window"
+msgstr "Peida aken"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr "Heledus %1 %"
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr "Värviküllastus %1 %"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bald@starman.ee"
+
+#. i18n: file: desktop/kcoloreditui.rc:10
+#. i18n: ectx: Menu (palette)
+#: rc.cpp:5
+msgid "Palette"
+msgstr "Palett"
+
+#~ msgid "Detail view"
+#~ msgstr "Üksikasjalik vaade"
+
+#~ msgid "Selected"
+#~ msgstr "Valitud"
+
+#~ msgid "Append Color"
+#~ msgstr "Lisa värv"
+
+#~ msgid "Append Comment"
+#~ msgstr "Lisa kommentaar"
+
+#~ msgid "Color tool:"
+#~ msgstr "Värvitööriist:"
+
+#~ msgid "Color information:"
+#~ msgstr "Värviteave:"
+
+#~ msgid "HSV Model"
+#~ msgstr "HSV mudel"
+
+#~ msgid "CMYK Model"
+#~ msgstr "CMYK mudel"
+
+#~ msgid "Decrease"
+#~ msgstr "Vähenda"
+
+#~ msgid "Increase"
+#~ msgstr "Suurenda"
+
+#~ msgid "Palette Toolbar"
+#~ msgstr "Paletiriba"
+
+#~ msgid "Name: "
+#~ msgstr "Nimi: "
+
+#~ msgid "Comment: "
+#~ msgstr "Kommentaar: "
+
+#~ msgid "Only works if Desktop Effects is enabled"
+#~ msgstr "Toimib ainult siis, kui töölauaefektid on sisse lülitatud"
+
+#~ msgid "Lighting tool"
+#~ msgstr "Heledustööriist"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Cut"
+#~ msgstr "Lõika"
+
+#~ msgid "Copy"
+#~ msgstr "Kopeeri"
+
+#~ msgid "Paste"
+#~ msgstr "Aseta"
+
+#~ msgid ""
+#~ "If is checked, selection enabled and you can cut,copy and paste items"
+#~ msgstr ""
+#~ "Sisselülitamisel on valimine lubatud ja elemente saab lõigata, kopeerida "
+#~ "ja asetada"
+
+#~ msgid "Brief Description"
+#~ msgstr "Lühikirjeldus"
+
+#~ msgid "Full Description"
+#~ msgstr "Täiskirjeldus"
+
+#~ msgid "KDE Style"
+#~ msgstr "KDE stiil"
+
+#~ msgid "Mix Colors"
+#~ msgstr "Sega värvid"
+
+#~ msgid "GTK Style"
+#~ msgstr "GTK stiil"
+
+#~ msgid "Prev text style"
+#~ msgstr "Eelmine tekstistiil"
+
+#~ msgid "Next text style"
+#~ msgstr "Järgmine tekstistiil"
+
+#~ msgid "Prev visual style"
+#~ msgstr "Eelmine visuaalne stiil"
+
+#~ msgid "Next visual style"
+#~ msgstr "Järgmine visuaalne stiil"
+
+#~ msgid "Add Colors"
+#~ msgstr "Lisa värvid"
+
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Add All Color Range"
+#~ msgstr "Lisa kõik värvivahemikud"
+
+#~ msgid "Add Lowest Color Range"
+#~ msgstr "Lisa madalaim värvivahemik"
+
+#~ msgid "Add Highest Color Range"
+#~ msgstr "Lisa kõrgeim värvivahemik"
+
+#~ msgid "Next page"
+#~ msgstr "Järgmine lehekülg"
+
+#~ msgid "Prev page"
+#~ msgstr "Eelmine lehekülg"
+
+#~ msgid "To Clipboard"
+#~ msgstr "Lõikepuhvrisse"
+
+#~ msgid "File to open"
+#~ msgstr "Avatav fail"
+
+#~ msgid "Palette items"
+#~ msgstr "Paleti elemendid"
+
+#~ msgid "Palette Description"
+#~ msgstr "Paleti kirjeldus"
+
+#~ msgid "Classic"
+#~ msgstr "Klassikaline"

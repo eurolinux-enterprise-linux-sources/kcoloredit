@@ -1,0 +1,660 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kcoloredit "<application
+>KColorEdit</application
+>">
+  <!ENTITY kappname "&kcoloredit;">
+  <!ENTITY package "kdegraphics">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE"
+> <!-- Change language only here --> 
+]
+>
+
+<book lang="&language;">
+<bookinfo>
+<title
+>O Manual do &kcoloredit;</title>
+<authorgroup>
+<author
+><firstname
+>Artur</firstname
+> <surname
+>Rataj</surname
+> <affiliation
+> <address
+>&Artur.Rataj.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@gmail.com</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Artur.Rataj;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2005-12-10</date>
+<releaseinfo
+>3.5.0</releaseinfo>
+
+<abstract>
+<para
+>O &kcoloredit; é um editor de arquivos de paletas. Ele pode ser usado para editar as paletas de cores e para a seleção e atribuição de nomes às cores.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>gráficos</keyword>
+<keyword
+>paleta</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introdução</title>
+
+<para
+>O &kcoloredit; é um editor de arquivos de paletas. Ele pode ser usado para editar as paletas de cores e para a seleção e atribuição de nomes às cores.</para>
+
+</chapter>
+
+<chapter id="file-operations">
+<title
+>Operações com arquivos</title>
+
+<sect1 id="file">
+<title
+>Sobre os arquivos das paletas</title>
+
+<para
+>Os arquivos das paletas instalados pelo &kde; podem estar tanto ao nível do sistema como ao nível do usuário. Os últimos encontram-se nas suas pastas privadas do &kde;, e chamam-se <guilabel
+>Cores Personalizadas</guilabel
+> e <guilabel
+>Cores Recentes</guilabel
+>. </para>
+
+<para
+>No &kcoloredit;, você poderá acessar a todas estas paletas, assim como às que se encontrem em arquivos arbitrários. </para>
+
+</sect1>
+
+<sect1 id="file-open">
+<title
+>Abrir um arquivo</title>
+<para
+>Na janela de <guilabel
+>Abrir um Arquivo</guilabel
+>, você poderá escolher a partir de uma lista de paletas instalas, ou percorrer as pastas à procura de arquivos. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="Edition">
+<title
+>Edição</title>
+
+<sect1 id="cursor">
+<title
+>Cursor</title>
+
+<para
+>O cursor encontra-se visível como uma linha na janela da paleta. Ele poderá ser movimentado se clicar numa área ao lado de uma cor.</para>
+
+<para
+>O cursor tem as seguintes funções:</para>
+
+<itemizedlist>
+<listitem>
+<para
+>Aponta para a cor a seguir a ele. A cor, se existir, está descrita abaixo na janela da paleta. Você poderá editar o seu nome aí. </para>
+</listitem>
+<listitem>
+<para
+>Ele poderá ser usado para fazer uma seleção. Esta poderá ser feita se clicar numa área ao lado de um ícone, de modo a mover o cursor para aí, a se mover então o mouse com o botão esquerdo pressionado. </para>
+</listitem>
+<listitem>
+<para
+>Se a opção <guilabel
+>A seguir ao cursor</guilabel
+>, perto do botão <guilabel
+>Adicionar uma Cor</guilabel
+> estiver assinalada, é colocada uma cor do seletor seguindo ao cursor. A cor é então inserida ou sobrepõe outra, dependendo se o modo de <guilabel
+>Sobreposição</guilabel
+> estiver selecionado. O modo poderá ser escolhido ao assinalar a opção <guilabel
+>Sobrepor</guilabel
+>, a qual se encontra ao lado da <guilabel
+>No cursor</guilabel
+>.</para>
+</listitem>
+</itemizedlist>
+
+</sect1>
+
+<sect1 id = "selection">
+<title
+>Seleção</title>
+<para
+>Uma seleção, a qual poderá se feita tal como descrito na seção anterior, pode ser usada nas operações de cópia, corte e colagem. </para>
+</sect1>
+
+<sect1 id = "clipboard-format">
+<title
+>Formato da área de transferência</title>
+<para
+>O &kcoloredit; usa o seguinte formato para os dados da área de transferências: para cada cor existem três números para as componentes de vermelho, verde e azul, respectivamente, bem como um nome de cor opcional, seguindo-se um caracter de fim de linha se existir mais de uma cor. Como tal, se existirem três números na área de transferência, por exemplo, os mesmos poderão ser colados pelo &kcoloredit; como uma cor. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="color-selection">
+<title
+>Selecionar uma cor no espaço do RGB</title>
+
+<para
+>A cor poderá selecionada a partir de um espaço RGB no &kcoloredit; das seguintes formas: <itemizedlist>
+<listitem>
+<para
+>Editando as componentes do HSV ou do RGB. </para>
+</listitem>
+<listitem>
+<para
+>Selecionado uma cor a partir dos painéis de gradientes. No da esquerda, dois dos componentes HSV podem ser selecionados, e no da direita, o terceiro. O terceiro componente pode ser escolhido clicando em um dos botões rotulados <guilabel
+>H:</guilabel
+>, <guilabel
+>S:</guilabel
+> e <guilabel
+>V:</guilabel
+>. O painel de um componente exibe cores com os outros dois componentes iguais às selecionadas no painel de dois componentes. O painel de dois componentes pode exibir cores com o terceiro componente fixo, ou, se a caixa <guilabel
+>Variável</guilabel
+> estiver selecionada, com um valor igual ao selecionado no painel de um componente. No modo <guilabel
+>Substituir</guilabel
+>, a cor selecionada nos painéis substitui a de resultado instantaneamente, e no modo <guilabel
+>Mudar:</guilabel
+> ele modifica a cor de resultado após cada clique, ou um movimento do mouse enquanto o botão do mouse estiver pressionado. Entretanto, no último modo selecionado, a cor selecionada nos painéis de gradiente podem diferir da cor de resultado. Para sincronizar as cores, o botão <guibutton
+>Sincronizar</guibutton
+> pode ser usado. </para>
+</listitem>
+</itemizedlist>
+</para>
+</chapter>
+
+<!-- Someone energetic might want to write a small chapter here -->
+<!-- describing RGB vs HSV etc -->
+
+<chapter id="drag-and-drop">
+<title
+>Arrastar e soltar</title>
+<para
+>As cores da paleta e a cor do resultado da seleção da cor poderão ser arrastados com o mouse. </para>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>Referência do Menu</title>
+
+<sect1 id="file-menu">
+<title
+>O Menu <guimenu
+>Arquivo</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>N</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Novo</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Inicia uma nova paleta na janela atual.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Nova Janela</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Abre uma nova janela</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>O</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Abrir</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Abre uma paleta salva.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Abrir um Recente</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Reabre uma paleta que você tenha editado recentemente.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>S</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Salvar</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Salva a paleta atualmente aberta.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Salvar como...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Salva a paleta atualmente aberta com um novo nome.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>W</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Fechar</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Fecha</action
+> a janela atual do &kcoloredit;</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>Q</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Arquivo</guimenu
+> <guimenuitem
+>Sair</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Sai</action
+> do &kcoloredit;.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="edit-menu">
+<title
+>O menu <guimenu
+>Editar</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>X</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Editar</guimenu
+> <guimenuitem
+>Cortar</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Corta a cor atualmente selecionada para a área de transferência.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>C</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Editar</guimenu
+> <guimenuitem
+>Copiar</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Copia a cor atualmente selecionada para a área de transferência.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>V</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Editar</guimenu
+> <guimenuitem
+>Colar</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Cola uma cor a partir da área de transferência.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="color-menu">
+<title
+>O Menu <guimenu
+>Cor</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Cor</guimenu
+> <guimenuitem
+>Da Paleta</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Procura a cor atualmente selecionada na paleta, no seletor de cores à esquerda.</action
+></para
+><!-- eww... needs rewrite -->
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Cor</guimenu
+> <guimenuitem
+>Da Tela</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Extrai uma cor a partir de qualquer ponto da tela, e procura-a no seletor de cores à esquerda.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="settings-menu">
+<title
+>O menu <guimenu
+>Configurações</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configurações</guimenu
+> <guimenuitem
+>Ocultar/Mostrar a Barra de Ferramentas</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Comuta (ativa ou desativa) os ícones da barra de ferramentas.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configurações</guimenu
+> <guimenuitem
+>Ocultar/Mostrar a Barra de Estado</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Comuta (ativa ou desativa) a barra de estado.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configurações</guimenu
+> <guimenuitem
+>Ocultar/Mostrar os Nomes das Cores</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Se a paleta atualmente aberta tiver nomes de cores, <action
+>os mesmos serão mostrados ao lado das cores</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configurações</guimenu
+> <guimenuitem
+>Configurar atalhos...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Configura</action
+> as combinações de teclas que usa para acessar às diferentes ações.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Configurações</guimenu
+> <guimenuitem
+>Configurar barra de ferramentas...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Configura</action
+> os itens que você deseja colocar na barra de ferramentas </para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>O menu <guimenu
+>Ajuda</guimenu
+></title>
+&help.menu.documentation; </sect1>
+
+</chapter>
+
+<chapter id="credits-and-licenses">
+<title
+>Créditos e Licenças</title>
+
+<para
+>O &kcoloredit; tem 'Copyright' de 2000 para &Artur.Rataj;</para>
+
+<para
+>A documentação tem 'Copyright' de 2000 para &Artur.Rataj;</para>
+
+<para
+>Tradução de Marcus Gama<email
+>marcus.gama@gmail.com</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+<appendix id="installation">
+<title
+>Instalação</title>
+
+&install.intro.documentation;
+
+&install.compile.documentation;
+
+</appendix>
+
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+

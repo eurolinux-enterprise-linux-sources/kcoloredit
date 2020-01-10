@@ -1,0 +1,678 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kcoloredit "<application
+>KColorEdit</application
+>">
+  <!ENTITY kappname "&kcoloredit;">
+  <!ENTITY package "kdegraphics">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Ukrainian "INCLUDE"
+> <!-- Change language only here --> 
+]
+>
+
+<book lang="&language;">
+<bookinfo>
+<title
+>Підручник з &kcoloredit;</title>
+<authorgroup>
+<author
+><firstname
+>Artur</firstname
+> <surname
+>Rataj</surname
+> <affiliation
+> <address
+>&Artur.Rataj.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>о. Іван</firstname
+><surname
+>Петрущак</surname
+><affiliation
+><address
+><email
+>fr.ivan@ukrainian-orthodox.org</email
+></address
+></affiliation
+><contrib
+>Переклад українською</contrib
+></othercredit
+><othercredit role="translator"
+><firstname
+>Юрій</firstname
+><surname
+>Чорноіван</surname
+><affiliation
+><address
+><email
+>yurchor@ukr.net</email
+></address
+></affiliation
+><contrib
+>Доповнення перекладу українською</contrib
+></othercredit
+> 
+
+</authorgroup>
+
+<copyright>
+<year
+>2000</year>
+<holder
+>&Artur.Rataj;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2005-12-10</date>
+<releaseinfo
+>3.5.0</releaseinfo>
+
+<abstract>
+<para
+>&kcoloredit; — це редактор файлів палітр. Його можна використовувати для редагування палітр кольорів, для вибору і призначення назв кольорів.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>графіка</keyword>
+<keyword
+>палітра</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Вступ</title>
+
+<para
+>&kcoloredit; — це редактор файлів палітр. Його можна використовувати для редагування палітр кольорів, для вибору і призначення назв кольорів.</para>
+
+</chapter>
+
+<chapter id="file-operations">
+<title
+>Дії з файлами</title>
+
+<sect1 id="file">
+<title
+>Про файли палітр</title>
+
+<para
+>Файли палітр, які встановлює &kde;, можуть бути або загальносистемними або призначеними лише для окремого користувача. Останні знаходяться у ваших особистих теках налаштувань &kde;, і називаються <guilabel
+>Нетиповими кольорами</guilabel
+> і <guilabel
+>Нещодавніми кольорами</guilabel
+>. </para>
+
+<para
+>За допомогою &kcoloredit; ви можете відкрити будь-яку з цих палітр, а також палітру з будь-якого іншого файла. </para>
+
+</sect1>
+
+<sect1 id="file-open">
+<title
+>Як відкрити файл</title>
+<para
+>У діалоговому вікні <guilabel
+>Відкрити файл</guilabel
+> ви можете вибрати палітру зі списку встановлених палітр або вказати файл палітри за допомогою навігації теками. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="Edition">
+<title
+>Редагування</title>
+
+<sect1 id="cursor">
+<title
+>Курсор</title>
+
+<para
+>Курсор виглядає як лінія у області перегляду палітри. Його можна пересувати наведенням вказівника миші на область поряд з кольором з наступним клацанням лівою кнопкою миші.</para>
+
+<para
+>Курсор виконує такі функції:</para>
+
+<itemizedlist>
+<listitem>
+<para
+>Вказує на колір поряд з ним. Опис відповідного кольору, якщо такий є, буде показано під областю перегляду палітри. Там ви можете змінити назву цього кольору. </para>
+</listitem>
+<listitem>
+<para
+>Його можна використовувати для вибору. Вибрати можна так: наведіть вказівник миші на область поряд з кольором, клацніть лівою кнопкою, щоб пересунути курсор на цей колір, а потім потягніть вказівник миші вниз, одночасно утримуючи натиснутою ліву кнопку миші. </para>
+</listitem>
+<listitem>
+<para
+>Якщо у полі <guilabel
+>Під курсором</guilabel
+> поруч з кнопкою <guilabel
+>Додати колір</guilabel
+> поставлено позначку, колір, вибраний у інструменті для вибору кольорів, буде виведено у позицію курсора. Цей колір буде або вставлено, або цей колір замінить той, що був там раніше, це залежить від того чи увімкнено режим <guilabel
+>Перезаписати</guilabel
+>. Цей режим можна увімкнути за допомогою поля для позначки з міткою <guilabel
+>Перезаписати</guilabel
+>, розташованого поряд з полем <guilabel
+>Під курсором</guilabel
+>.</para>
+</listitem>
+</itemizedlist>
+
+</sect1>
+
+<sect1 id = "selection">
+<title
+>Вибір</title>
+<para
+>Вибір, який можна зробити у спосіб, описаний у попередньому розділі, можна використовувати для дій з копіювання, вирізання і вставлення. </para>
+</sect1>
+
+<sect1 id = "clipboard-format">
+<title
+>Формат даних кишені</title>
+<para
+>&kcoloredit; використовує такий формат даних у кишені: кожному кольору відповідають три числа (для червоного, зеленого і синього компонентів, відповідно), далі йде необов’язкова назва кольору, а за нею символ нового рядка, якщо у кишені декілька кольорів. Тому, якщо у кишені, наприклад, є три цілих числа, їх можна вставити у &kcoloredit; як колір. </para>
+</sect1>
+
+</chapter>
+
+<chapter id="color-selection">
+<title
+>Як вибрати колір з простору кольорів RGB</title>
+
+<para
+>Колір з простору кольорів RGB у &kcoloredit; можна вибрати у такі способи: <itemizedlist>
+<listitem>
+<para
+>За допомогою редагування HSV або RGB компонентів. </para>
+</listitem>
+<listitem>
+<para
+>Вибором кольору на панелях градієнтів кольорів. На панелі, розташованій ліворуч, можна обрати два компоненти з трійки HSV (Відтінок-Насиченість-Значення), а потім за допомогою панелі, розташованої праворуч, обрати третій. Третій компонент можна вибрати натисканням одної з кнопок з позначками <guilabel
+>H:</guilabel
+>, <guilabel
+>S:</guilabel
+> і <guilabel
+>V:</guilabel
+>. Панель одного компонента показує лише кольори, дві інші компоненти яких рівні значенням, вибраним на панелі двох компонентів. Панель двох компонентів може показувати кольори з фіксованим третім компонентом, або, якщо позначено поле <guilabel
+>Змінна</guilabel
+>, значення цього компонента буде рівним вибраному на панелі одного компонента. У режимі <guilabel
+>Замінити</guilabel
+> колір, вибраний на панелях негайно змінюватиме вихідний колір, а у режимі <guilabel
+>Змінити:</guilabel
+> змінюватиме вихідний колір після кожного клацання кнопкою миші або руху миші з натиснутою лівою кнопкою. Тому у останньому режимі колір, вибраний на панелях градієнтів, може відрізнятися від вихідного кольору. Для синхронізації цих кольорів, можна скористатися кнопкою <guibutton
+>Синхронізувати</guibutton
+>. </para>
+</listitem>
+</itemizedlist>
+</para>
+</chapter>
+
+<!-- Someone energetic might want to write a small chapter here -->
+<!-- describing RGB vs HSV etc -->
+
+<chapter id="drag-and-drop">
+<title
+>Перетягування і скидання</title>
+<para
+>Кольори палітр і вихідний колір з вибору кольорів можна перетягувати у потрібне місце за допомогою вказівника миші. </para>
+</chapter>
+
+<chapter id="menu-reference">
+<title
+>Довідник з меню</title>
+
+<sect1 id="file-menu">
+<title
+>Меню <guimenu
+>Файл</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>N</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Створити</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Розпочати створення нової палітри у поточному вікні.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Нове вікно</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Відкрити нове вікно</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>O</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Відкрити</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Відкрити збережену палітру.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Відкрити недавній</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Повторно відкрити палітру, яку ви нещодавно редагували.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>S</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Зберегти</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Зберегти поточну відкриту палітру.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Файл</guimenu
+> <guimenuitem
+>Зберегти як...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Зберегти поточну відкриту палітру з іншою назвою.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>W</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Закрити</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Закрити</action
+> поточне вікно &kcoloredit;.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Alt; <keycap
+>F4</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Файл</guimenu
+> <guimenuitem
+>Вихід</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Завершити</action
+> роботу &kcoloredit;.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="edit-menu">
+<title
+>Меню <guimenu
+>Правка</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>X</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Вирізати</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Вирізати поточний вибраний колір до кишені.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>C</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Копіювати</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Копіювати поточний вибраний колір до кишені.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>V</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+> <guimenuitem
+>Вставити</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Вставити колір з кишені.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="color-menu">
+<title
+>Меню <guimenu
+>Колір</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Колір</guimenu
+> <guimenuitem
+>З палітри</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Знайти колір, вибраний у палітрі, у засобі вибору кольорів, розташованому ліворуч.</action
+></para
+><!-- eww... needs rewrite -->
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Колір</guimenu
+> <guimenuitem
+>З екрана</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Взяти колір з будь-якого місця на екрані і знайти його у засобі вибору кольорів, розташованому ліворуч.</action
+></para>
+</listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>
+
+<sect1 id="settings-menu">
+<title
+>Меню <guimenu
+>Параметри</guimenu
+></title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Параметри</guimenu
+> <guimenuitem
+>Сховати/Показати пенал</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Сховати або показати піктограми пенала.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Параметри</guimenu
+> <guimenuitem
+>Сховати/Показати смужку стану</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Сховати або показати смужку стану.</action
+></para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Параметри</guimenu
+> <guimenuitem
+>Ховати/Показувати назви кольорів</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+>Якщо у поточній відкритій палітрі є назви кольорів, <action
+>показати їх поруч з кольорами</action
+>.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Параметри</guimenu
+> <guimenuitem
+>Налаштувати скорочення...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Налаштувати</action
+> комбінації клавіш для доступу до різноманітних дій програми.</para>
+</listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Налаштування</guimenu
+> <guimenuitem
+>Налаштувати пенали...</guimenuitem
+> </menuchoice
+></term>
+<listitem>
+<para
+><action
+>Налаштувати</action
+> елементи, які ви бажаєте бачити у головному пеналі </para>
+</listitem>
+</varlistentry>
+
+</variablelist>
+
+</sect1>
+
+<sect1 id="help-menu">
+<title
+>Меню <guimenu
+>Довідка</guimenu
+></title>
+&help.menu.documentation; </sect1>
+
+</chapter>
+
+<chapter id="credits-and-licenses">
+<title
+>Подяки і ліцензії</title>
+
+<para
+>Авторські права на програму &kcoloredit; належать &Artur.Rataj;, ©2000.</para>
+
+<para
+>Авторські права на документацію належать &Artur.Rataj;, ©2000.</para>
+
+<para
+>Переклад українською: о. Іван Петрущак<email
+>fr.ivan@ukrainian-orthodox.org</email
+></para
+><para
+>Доповнення перекладу: Юрій Чорноіван<email
+>yurchor@ukr.net</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+<appendix id="installation">
+<title
+>Встановлення</title>
+
+&install.intro.documentation;
+
+&install.compile.documentation;
+
+</appendix>
+
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-omittag: nil
+sgml-shorttag: t
+End:
+-->
+
